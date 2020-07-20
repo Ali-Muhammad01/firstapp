@@ -37,5 +37,5 @@ jobs:
       run: npm install --global surge
       
     - name: Run Surge
-      run: surge ./build alibootcamp.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build alibootcamp2020.surge.sh --token ${{secrets.SURGE_TOKEN}}
     
